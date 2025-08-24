@@ -1,0 +1,84 @@
+#listing{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+}
+#listing form{
+    width: 70%;
+    height: 100%;
+     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
+}
+#listingtitle {
+   
+   
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    
+    
+    
+
+}
+.inputfield{
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+.inputfield input{
+  width: 90%;
+  padding: 3px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  border: 1px solid rgb(71,71,70);
+}
+
+#listingbtn{
+    padding: 10px 40px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    transition: all 0.2s;
+    cursor: pointer;
+    
+}
+#listingbtn svg{
+    font-size: 20px;
+    
+}
+
+#listingbtn:hover {
+    border: 2px solid red;
+    background: transparent;
+    color: red;
+}
+#des{
+    width: 90%;
+  padding: 3px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  border: 1px solid rgb(71,71,70);
+}
